@@ -48,3 +48,8 @@ def find_telemarketers():
 
 
 find_telemarketers()
+print("\n===============================")
+print("Worst-Case Big-O Notation: O(2n + m + o log o)")
+print("n is length of calls")
+print("m is length of texts")
+print("o is length of item in set")

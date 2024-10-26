@@ -21,6 +21,6 @@ Print messages:
 """
 print()
 print("First record of texts, <{}> texts <{}> at time {}".format(texts[0][0], texts[0][1], texts[0][2]))
-print("Last record of calls, <{}> calls <{}> at time {}, lasting {} seconds".format(calls[0][0], calls[0][1], calls[0][2], calls[0][3]))
+print("Last record of calls, <{}> calls <{}> at time {}, lasting {} seconds".format(calls[-1][0], calls[-1][1], calls[-1][2], calls[-1][3]))
 print("\n===============================")
 print("Worst-Case Big-O Notation: O(1)")
